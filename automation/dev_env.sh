@@ -1,9 +1,5 @@
 #!/bin/bash
 
-## Updates Source list and Upgrades any new packages
-sudo apt update
-sudo apt upgrade -y
-
 ## Installs all dependencies for the app to work
 sudo apt install software-properties-common -y
 sudo apt install python3 -y
