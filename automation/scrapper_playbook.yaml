@@ -45,7 +45,7 @@
         state: started
     - name: Copying config file for nginx
       copy:
-        src: "/home/ubuntu/{{ config_dest }}/nginx.conf"
+        src: "{{ home_location}}/{{ config_dest }}/nginx.conf"
         dest: /etc/nginx/
         remote_src: yes
     - name: Ensuring public IP is current
@@ -98,7 +98,7 @@
         state: started
     - name: Copying config file for supervisor
       copy:
-        src: "/home/ubuntu/{{ config_dest }}/flask_app.conf"
+        src: "{{ home_location }}/{{ config_dest }}/flask_app.conf"
         dest: /etc/supervisor/conf.d/
         remote_src: yes
     - name: Running supervisor commands
