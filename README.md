@@ -37,7 +37,7 @@ Optional Modules:
 
 ## TLDR
 
-Automated shell file available [HERE](/ansible/dev_env.sh).
+Automated shell file available [HERE](/automation/dev_env.sh).
 
 - Open terminal
 - Install SQLite3
@@ -90,7 +90,7 @@ We can also deploy our application with NGinx, for that we need to install it wi
 
 ## Ansible Automation
 
-This repo also contains Ansible-Ready files to fully deploy the Flask application. [scrapper_playbook.yaml](ansible/scrapper_playbook.yaml) will deploy the Flask application on the specified machine into production, therefore running `ansible-playbook scrapper_playbook.yaml` will take care of the entire provisioning of your machine. Please ensure that you add `scrapper` group to your hosts file, located in `/etc/ansible/hosts`.
+This repo also contains Ansible-Ready files to fully deploy the Flask application. [scrapper_playbook.yaml](automation/scrapper_playbook.yaml) will deploy the Flask application on the specified machine into production, therefore running `ansible-playbook scrapper_playbook.yaml` will take care of the entire provisioning of your machine. Please ensure that you add `scrapper` group to your hosts file, located in `/etc/ansible/hosts`.
 
 </br>
 
