@@ -6,7 +6,6 @@ setup(
     url="https://github.com/deviljin112",
     license="OpenSource",
     author="Deviljin112",
-    author_email="hswic@spartaglobal.com",
     description="A Flask-based, deployment-ready web-scrapper written in Python.",
     install_requires=[
         "requests",
