@@ -3,7 +3,6 @@ from setuptools import setup
 setup(
     name="Web-Scrapper",
     version="0.1",
-    packages=["sqlite3"],
     url="https://github.com/deviljin112",
     license="OpenSource",
     author="Deviljin112",
