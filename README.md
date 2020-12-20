@@ -27,11 +27,11 @@ Essential Packages:
 - Python 3.x
 - Working Terminal
 - [Python Virtual Environment](https://docs.python.org/3/library/venv.html)
-- Flask
 - SQLite3
 
 Optional Modules:
 
+- Nginx (For reverse proxy)
 - Gunicorn (For production deployment)
 - Supervisor (For automating deployment)
 
